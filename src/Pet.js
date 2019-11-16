@@ -20,7 +20,7 @@ export default Pet
 //   ])
 // }
 
-// Yet another way to exportexport anonymous function
+// Yet another way to export anonymous function
 // export default ({ name, animal, breed }) => {
 //   return React.createElement('div', {}, [
 //     React.createElement('h1', {}, name),
