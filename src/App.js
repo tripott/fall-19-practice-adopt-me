@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import Pet from './Pet'
 
 const App = () => {
@@ -19,4 +19,4 @@ const App = () => {
   ])
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById('root'))
+render(React.createElement(App), document.getElementById('root'))
