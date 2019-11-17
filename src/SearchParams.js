@@ -19,7 +19,14 @@ const SearchParams = () => {
   //  that it depends on: animal and setBreed and setBreeds.
   // if animal, setBreed, or setBreeds change then rerun the effect
   //  otherwise, dont run the effect. So, if location changes,
-  //   it wont rerun the effect.
+  //   it wont rerun the effect
+
+  // whenever state changes, React will re-render the UI
+  // useState and useEffect work together to manage
+  //  state updates and display of state to the ui
+  // The second param in useEffect is an array that tells useEffect
+  //  when to run the effect. in other words, the effect will only rerun
+  //   when the user changes the type of animal in the UI dropdown(ex: cat to dog)
   useEffect(() => {
     setBreeds([])
     setBreed('')
